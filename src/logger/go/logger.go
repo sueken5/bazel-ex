@@ -11,4 +11,5 @@ func NewLogger() *Logger {
 
 func (l *Logger) Info(msg string) {
 	log.Print(msg)
+	log.Print("hello")
 }
